@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>The Specialist Clinic</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="top-bar">
+      <div class="contact-info">
+        <div class="logo">
+          <img src="images/logo1.jpg" alt="Hospital Logo">
+        </div>
+        <div class="info-items">
+          <span><i class="fas fa-phone"></i> +1 234 567 8900</span>
+          <span><i class="fas fa-envelope"></i> info@hospital.com</span>
+          <span><i class="fas fa-clock"></i> Daily: 7:00 AM - 8:00 PM</span>
+        </div>
+      </div>
+    </div>
+    <nav>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#Our Services">Services</a></li>
+    <li><a href="#Our Doctors">Doctors</a></li>
+    <li><a href="#departments">Departments</a></li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <div class="search-box">
+    <input type="text" placeholder="Search doctors, departments, services...">
+    <button><i class="fas fa-search"></i> Search</button>
+  </div>
+
+  <section class="info-cards">
+    <div class="card">
+      <h3>Emergency Case</h3>
+      <p>24/7 emergency services available for urgent medical care needs.</p>
+    </div>
+    <div class="card">
+      <h3>Working Hours</h3>
+      <div class="hours">
+        <p>Monday - Friday: 8:00 - 18:00</p>
+        <p>Saturday: 8:00 - 16:00</p>
+        <p>Sunday: 8:00 - 13:00</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Clinic Timetable</h3>
+      <p>Check our specialists' availability and book your appointment.</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <i class="fas fa-hospital"></i>
+        <h3>Premium Facilities</h3>
+        <p>State-of-the-art medical facilities and equipment.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-flask"></i>
+        <h3>Large Laboratory</h3>
+        <p>Advanced diagnostic and testing capabilities.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-user-md"></i>
+        <h3>Detailed Specialist</h3>
+        <p>Expert medical specialists in various fields.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-baby"></i>
+        <h3>Children Care Center</h3>
+        <p>Specialized pediatric care services.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-building"></i>
+        <h3>Fine Infrastructure</h3>
+        <p>Modern and comfortable facilities.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-tint"></i>
+        <h3>Blood Bank</h3>
+        <p>24/7 blood bank services available.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="doctors">
+    <h2>Our Doctors</h2>
+    <div class="doctors-grid">
+      <div class="doctor-card">
+        <img src="images/dr1.jpg" alt="Doctor">
+        <h3>Dr. Soren Bo Bastian</h3>
+        <p>Cardiologist</p>
+      </div>
+      <div class="doctor-card">
+        <img src="images/dr2.avif" alt="Doctor">
+        <h3>Dr. Bryan Sattler</h3>
+        <p>Neurologist</p>
+      </div>
+      <div class="doctor-card">
+        <img src="images/dr3.avif" alt="Doctor">
+        <h3>Dr. Matthew Bayliss</h3>
+        <p>Pediatrician</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="appointment">
+    <div class="services-container">
+      <div class="service-item">
+        <i class="fas fa-microscope"></i>
+        <h3>PREMIUM FACILITIES</h3>
+        <p>Lorem ipsum is simply dummy text of the printing.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-flask"></i>
+        <h3>LARGE LABORATORY</h3>
+        <p>Lorem ipsum is simply dummy text of the printing.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-user-md"></i>
+        <h3>DETAILED SPECIALIST</h3>
+        <p>Lorem ipsum is simply dummy text of the printing.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-baby"></i>
+        <h3>CHILDREN CARE CENTER</h3>
+        <p>Lorem ipsum is simply dummy text of the printing.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-building"></i>
+        <h3>FINE INFRASTRUCTURE</h3>
+        <p>Lorem ipsum is simply dummy text of the printing.</p>
+      </div>
+      <div class="service-item">
+        <i class="fas fa-comment-medical"></i>
+        <h3>BLOOD BANK</h3>
+        <p>Lorem ipsum is simply dummy text of the printing.</p>
+      </div>
+    </div>
+    <div class="appointment-form">
+      <h2>+ Book Appointment</h2>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email Address">
+        <input type="tel" placeholder="Phone Number">
+        <input type="text" placeholder="Your Address">
+        <input type="date" placeholder="mm/dd/yyyy">
+        <select>
+          <option value="" disabled selected>Select Department</option>
+          <option value="cardiology">Cardiology</option>
+          <option value="neurology">Neurology</option>
+          <option value="pediatrics">Pediatrics</option>
+        </select>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Book Appointment</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <div class="testimonial-heading">
+      <i class="fas fa-comments"></i>
+      <h2>Testimonials</h2>
+    </div>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <h3>The amazing clinic! Wonderful Support!</h3>
+        <p>They have got my project on time with the competition with a sed highly skilled, and experienced &
+          professional team.</p>
+        <div class="client">
+          <img src="images/test1.jpeg" alt="Client">
+          <div class="client-info">
+            <h4>James Fernando</h4>
+            <p>- Manager of Racer</p>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card">
+        <h3>Thanks for Help us!</h3>
+        <p>They have got my project on time with the competition with a sed highly skilled, and experienced &
+          professional team.</p>
+        <div class="client">
+          <img src="images/test2.webp" alt="Client">
+          <div class="client-info">
+            <h4>Andrew Atkinson</h4>
+            <p>- Life Manager</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="get-in-touch">
+    <h2>Get in Touch</h2>
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="E-mail" required>
+        <input type="tel" placeholder="Phone" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Message" required></textarea>
+        <button type="submit" class="send-message">Send Message</button>
+      </form>
+      <div class="contact-map">
+        <!-- Placeholder for map or additional content -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2025 The Specialist Clinic. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
